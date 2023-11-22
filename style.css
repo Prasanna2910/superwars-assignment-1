@@ -1,41 +1,35 @@
-.hero {
-  display: grid;
-  column-gap: 25px;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 40%;
-  align-content: center;
-  text-align: center;
-  margin-left: 140px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  align-items: center;
+  text-align: center;
+  margin-top: 1%;
+}
+.hero,
 .villan {
   display: grid;
-  text-align: center;
-  align-content: center;
-  column-gap: 25px;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 40%;
-  margin-right: 140px;
+  width: 80%;
+  column-gap: 5%;
 }
-body {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+.hero {
+  margin-left: 20%;
 }
-.score {
-  width: 20%;
-  text-align: center;
-}
-
 .spiderman,
 .captain,
 .panther,
+.thanos,
 .cat,
-.gem,
-.thanos {
-  border: grey 2px solid;
-  border-radius: 8px;
-  height: 186px;
+.gem {
+  border: 2px solid grey;
+  border-radius: 5px;
+  height:140px;
 }
-img {
-  margin-top: 10px;
+img{
+  margin-top: 2%;
 }
+
