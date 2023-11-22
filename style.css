@@ -1,0 +1,41 @@
+.hero {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 40%;
+  align-content: center;
+  text-align: center;
+  margin-left: 140px;
+}
+.villan {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  column-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 40%;
+  margin-right: 140px;
+}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.score {
+  width: 20%;
+  text-align: center;
+}
+
+.spiderman,
+.captain,
+.panther,
+.cat,
+.gem,
+.thanos {
+  border: grey 2px solid;
+  border-radius: 8px;
+  height: 186px;
+}
+img {
+  margin-top: 10px;
+}
